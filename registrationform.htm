@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		*
+		{
+		box-sizing:border-box;
+		}
+		.container
+		{
+		width:100%;
+		margin:0;
+		padding:0;
+		}
+		.row::after
+		{
+		content:" ";
+		clear:both;
+		display:table;
+		background-color:red;
+		}
+		.col-1
+		{
+		margin-top:20px;
+		width:50%;
+		padding:20px;
+		float:left;
+		}
+		.table
+		{
+		position:relative;
+		bottom:50px;
+		left:80px;
+		width:85%;
+		}
+		.h1
+		{
+		position:relative;
+		top:-80px;
+		text-align: center;
+		}
+		.td
+		{
+		padding-left:06px;
+		}
+		.icon
+		{
+		position:relative;
+		left:50px;
+		font-size:65px;
+		}
+		.table
+		{
+		border:2px solid green;
+		}
+		.tr
+		{
+		border:2px solid green;
+		}
+		.td
+		{
+		border:2px solid green;
+		}
+		.col-2{width:100%;}
+		.dv2
+		{
+		position:relative;
+		bottom:42px;
+		text-align:center;
+		height:40px;
+		}
+		.b2
+			{
+				width:100px;
+				border:none;
+				font-size:18px;
+				padding:8px 0px;
+				border-radius:8px;
+				margin-top:-35px;
+				margin-left:260px;
+				box-shadow:2px 5px 5px red;
+			}
+		.b1
+			{
+				width:160px;
+				border:none;
+				font-size:18px;
+				padding:8px 0px;
+				border-radius:8px;
+				margin-top:20px;
+				margin-left:80px;
+				box-shadow:2px 5px 5px blue;
+			}
+			.text-primary{color:white;}
+			.bg-red{background-color:red;}
+		.bg-secondary{background-color:rgb(11,214,173);}
+		.text-primary{color:white;}
+		.bg-blue{background-color:blue;}
+		label,input
+		{
+		display:block;
+		}
+		.input
+		{
+				border:2px solid lightgray;
+				margin-bottom:5px;
+				border-radius:5px;
+				padding:5px;
+		}
+		.uff
+		{
+		position:relative;
+		bottom:20px;
+		font-family:Arial Black;
+		font-size:45px;
+		}
+		
+		table
+		{
+		position:relative;
+		bottom:30px;
+		padding-left:60px;
+		}
+		.hr
+		{
+		position:relative;
+		top:190px;
+		right:390px;
+		transform:rotate(90deg);
+		width:400px;
+		border:1px solid mediumseagreen;
+		}
+		input[type="radio"],input[type="checkbox"]
+		{
+		margin-top:15px;
+		margin-left:30px;
+		display:inline-block;
+		}
+		.td1
+		{
+		padding-top:7px;
+		padding-left:30px;
+		}
+		</style>
+	</head>
+		<body>
+		<center><h1 class="uff">SAMPLE</h1></center>
+		<div class="col-2 dv2 bg-secondary text-primary">
+			<h1>Student Enrollment Form</h1>
+		</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-1">
+						<table>
+							<tr>
+								<td>Name</td>
+								<td class="td1"><input type="text" class="input"></td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td class="td1"><input type="text" class="input"></td>
+							</tr>
+							<tr>
+								<td>Website</td>
+								<td class="td1"><input type="text" class="input"></td>
+							</tr>
+							<tr>
+								<td>Image link</td>
+								<td class="td1"><input type="text" class="input"></td>
+							</tr>
+							<tr>
+								<td>Gender</td>
+								<td><input type="radio" name="a">Male<br>
+								<input type="radio" name="a">Female</td>
+							</tr>
+							<tr class="td">
+								<td>Skills</td>
+								<td><input type="checkbox">Java
+								<input type="checkbox">HTML
+								<input type="checkbox">CSS</td>
+							</tr>
+						</table>
+						
+							<input type="button" value="Enroll Student" class="bg-blue b1 text-primary">
+							<input type="button" value="Clear" class="bg-red b2 text-primary">
+					
+					
+					</div>	
+					
+					<hR class="hr">
+		
+					<div class="col-1">
+					<h1 class="h1">Enrolled Student</h1>
+					<table class="table" border="1" style="border-collapse:collapse;">
+					<tr class="tr">
+					<td class="td" style="background-color:lightgreen"><b>Description</b><br><br></td>
+					<td class="td"style="background-color:lightgreen"><b>Image</b><br><br></td>
+					</tr>
+					<tr class="tr">
+					<td class="td"><b>John Doe</b><br>Male<br>john.doe@gmail.com<br>java.HTML<br><br></td>
+					<td class="td"><i class="fa fa-user icon"></i></td>
+					</tr>
+					<tr class="tr">
+					<td style="background-color:lightgreen;" class="td"><b>Matt Rolling</b><br>Male<br>www.matter.com<br>java.CSS<br><br></nr><br></td>
+					<td style="background-color:lightgreen;" class="td"><i class="fa fa-user icon"></i></td>
+					</tr>
+					</table>
+					</div>
+				</div>
+			</div>	
+		</body>
